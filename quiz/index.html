@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Top section -->
+    <div class=" pt-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-info display-3 my-4">
+                Quiz <i class="fas fa-eye"></i>
+                <hr>
+            </h2>
+        </div>
+    </div>
+    
+    <!-- Score/Result Section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>Your total score is:<span class="text-info display-4 p-3">0%</span></p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz py-4 bg-info">
+        <div class="container">
+            <h2 class="my-5 text-white">
+                On with the questions...
+            </h2>
+            <form class="quiz-form text-dark">
+                <!-- Question No. 1 -->
+                <div class="card mb-5">
+                    <div class="card-body">
+                            <div class="">
+                                <p class="lead font-weight-normal">
+                                    1. Name the world's biggest island.
+                                </p>
+                                <!-- Options -->
+                                <!-- A -->
+                                <div class="form-check my-2 text-dark">
+                                    <input type="radio" name="question1" value="A">
+                                    <label class="form-check-label">
+                                        Russia
+                                    </label>
+                                </div>
+                                <!-- B -->
+                                <div class="form-check my-2 text-dark">
+                                    <input type="radio" name="question1" value="B">
+                                    <label class="form-check-label">
+                                        Greenland
+                                    </label>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                 <!-- Question No. 2 -->
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <div>
+                            <p class="lead font-weight-normal">
+                                2. What is the capital city of Spain?
+                            </p>
+                            <!-- Options -->
+                            <!-- A -->
+                            <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question2" value="A">
+                                <label class="form-check-label">
+                                    Barcelona 
+                                </label>
+                            </div>
+                            <!-- B -->
+                            <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question2" value="B">
+                                <label class="form-check-label">
+                                    Madrid
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question No. 3 -->
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <div>
+                            <p class="lead font-weight-normal">
+                                3. When did the Cold War end?
+                            </p>
+                            <!-- Options -->
+                            <!-- A -->
+                            <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question3" value="A">
+                                <label class="form-check-label">
+                                    1899
+                                </label>
+                            </div>
+                            <!-- B -->
+                            <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question3" value="B">
+                                <label class="form-check-label">
+                                    1989
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question No. 4 -->
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <div>
+                            <p class="lead font-weight-normal">
+                                4. What is the world's longest river?
+                            </p>
+                            <!-- Options -->
+                            <!-- A -->
+                            <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question4" value="A">
+                                <label class="form-check-label">
+                                    Nile
+                                </label>
+                            </div>
+                            <!-- B -->
+                             <div class="form-check my-2 text-dark">
+                                <input type="radio" name="question4" value="B">
+                                <label class="form-check-label">
+                                    Amazon
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div>
+                        <input href="#pull" type="submit" class="btn btn-light text-info">                  
+                    </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
